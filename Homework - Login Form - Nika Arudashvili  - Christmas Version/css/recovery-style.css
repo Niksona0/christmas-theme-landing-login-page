@@ -1,0 +1,109 @@
+@import url("//cdn.web-fonts.ge/fonts/alk-rex-bold/css/alk-rex-bold.min.css");
+
+* {
+    font-family: "ALK Rex Bold", sans-serif;
+}
+
+/* C O N T A I N E R */
+.main-cont {
+    width: 500px;
+    height: 80vh;
+    margin: auto;
+    position: relative;
+    top: 40px;
+}
+
+/* H E A D E R */
+.header {
+    background-color: #C30F16;
+    width: 100%;
+    height: 125px;
+    border-radius: 20px 20px 0 0;
+}
+
+.recovery-txt {
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+    position: relative;
+    margin: 0;
+    top: 40%;
+    left: 40%;
+}
+
+/* M A I N */
+main {
+    width: 100%;
+    height: 300px;
+}
+
+input {
+    color: #57b846;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    width: 390px;
+    margin: 10px;
+    background-color: #ebebeb;
+    height: 55px;
+    border-radius: 20px;
+}
+
+/* I N P U T */
+form {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+
+.remember-txt {
+    text-transform: capitalize;
+    color: #9d9d9d;
+    font-size: 16px;
+    font-weight: 400;
+    float: right;
+}
+
+.remember-txt a {
+    color: #C30F16;
+    text-decoration: none;
+    transition: 0.5s;
+    float: right;
+}
+
+button {
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    width: 390px;
+    height: 50px;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #C30F16;
+    border-radius: 30px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: 0.7s;
+    margin-top: 40px;
+}
+
+/* F O O T E R */
+footer {
+    position: relative;
+    top: 150px;
+    left: 150px;
+}
+
+/* H O V E R */
+a:hover {
+    color: #57b846;;
+}
+
+button:hover {
+    background-color: #57b846;;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/web-title-icon.jpg">
+    <meta name="keywords" content="HTML, CSS, Web Development, Studying, Learning, Homework, Practice, Login, Forms, Courses, sign-up, register">
+    <meta name="description" content="Sign up Form Created with HTML5 and CSS3 by Nika Arudashvili">
+    <meta name="author" content="Nika Arudashvili, classical">
+    <link rel="stylesheet" href="css/style.css">
+    <title>classical.com - რეგისტრაცია</title>
+</head>
+<body>
+        <!-- M A I N -->
+<main class="main-cont">
+    <form autocomplete="off">
+        <!-- HEADER -->
+        <fieldset class="main-fieldset">
+            <legend class="signup-form-legend">რეგისტრაციის ფორმა</legend>
+        <!-- INPUT -->
+            <p>
+                <label for="name">სახელი :</label>
+                <input type="text" name="name" id="name" required>
+            </p>
+            <p>
+                <label for="last-name">გვარი :</label>
+                <input type="text" name="last-name" id="last-name" required>
+            </p>
+            <p>
+                <label for="user-name">ზედმეტსახელი :</label>
+                <input type="text" name="user-name" id="user-name" required>
+            </p>
+            <p>
+                <label for="number">ტელეფონის ნომერი :</label>
+                <select>
+                    <option value="geo-phone-code">+995</option>
+                    <option value="usa-phone-code">+1</option>
+                    <option value="russia-phone-code">+79</option>
+                </select>
+                <input type="text" name="number" id="number" maxlength="9">
+            </p>
+            <p>
+                <label for="email">ელ.ფოსტა :</label>
+                <input type="email" name="email" id="email" required>
+            </p>
+            <p>
+                <label for="password">პაროლი :</label>
+                <input type="password" name="password" id="password" required>
+            </p>
+            <p>
+                <label for="date">დაბადების თარიღი :</label>
+                <input type="date" name="date" id="date" max="2021-12-03">
+            </p>
+        <!-- GENDER FIELDSET -->
+            <p>
+            <fieldset>
+                <legend class="gender-legend">სქესი</legend>
+                <label for="gender-male">მამრობითი :</label>
+                <input type="radio" name="gender" id="gender-male">
+                <br>
+                <label for="gender-female">მდედრობითი :</label>
+                <input type="radio" name="gender" id="gender-female">
+            </fieldset> 
+            </p>
+        <!-- FOOTER -->
+        <button type="submit">რეგისტრაცია</button>
+            <footer class="sign-up">
+                <p class="have-acc">უკვე გაქვს ანგარიში ?</p>
+                <h3 class="sign-in-link"><a href="sign-in.html">შედი ახლავე</a></h3>
+            </footer>
+        </fieldset>
+    </form>
+</main>
+</body>
+</html>
